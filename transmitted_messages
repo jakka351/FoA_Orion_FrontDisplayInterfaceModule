@@ -1,0 +1,7 @@
+FrontDisplayInterfaceModule                          = dict()
+    FrontDisplayInterfaceModule[0x2FC]                   = can.Message(arbitration_id=0x2FC, data=[0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00], is_extended_id=False)
+    FrontDisplayInterfaceModule[0x307]                   = can.Message(arbitration_id=0x307, data=[0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00], is_extended_id=False)
+    FrontDisplayInterfaceModule[0x313]                   = can.Message(arbitration_id=0x313, data=[IntActualTemp, RadioDataServiceSwitches, ], is_extended_id=False)                         
+    FrontDisplayInterfaceModule[0x55C]                   = can.Message(arbitration_id=0x55C, data=[IntActualTemp, RadioDataServiceSwitches, ], is_extended_id=False)                         
+    FrontDisplayInterfaceModule[0x7AE]                   = can.Message(arbitration_id=0x7AE, data=[0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00], is_extended_id=False) 
+    
